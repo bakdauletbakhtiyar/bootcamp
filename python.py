@@ -10,55 +10,55 @@
 #     else:
 #         print("False")
 
-# # strs = ['ccc', 'aaaa', 'd', 'bb']
-# # print(sorted(strs, key=len))  ## ['d', 'bb', 'ccc', 'aaaa']
+# strs = ['ccc', 'aaaa', 'd', 'bb']
+# print(sorted(strs, key=len)) ['d', 'bb', 'ccc', 'aaaa']
 
-# # def search_algo(num, items):
-# #     for item in items:
-# #         if item == num:
-# #             return True
-# #         else:
-# #             return False
-# # nums = [2, 4, 6, 8, 10]
+# def search_algo(num, items):
+#     for item in items:
+#         if item == num:
+#             return True
+#         else:
+#             return False
+# nums = [2, 4, 6, 8, 10]
 
-# # print(search_algo(2, nums))
+# print(search_algo(2, nums))
 
 
-# # height = int(input("Enter your height: "))
-# # age = int(input("Enter your age: "))
-# # price = 0
-# # if height >= 120 and age >= 9:
-# #     if age >= 0 and age <= 9:
-# #         price += 10
-# #         print("You are welcome! " , "Pay:" , price)
-# #     elif age >= 9 and age <= 18:
-# #         price += 15
-# #         print("You are welcome! " , "Pay:" , price)
-# #     else:
-# #         price += 20
-# #         print("You are welcome! " , "Pay:" , price)
-# # else:
-# #     print("Vhoda net")
-# # take_photo = input("Do you want a photo? ")
-# # if take_photo == "Yes":
-# #     price += 5
-# #     print("Pay:",price, ".Have a great time! ")
-# # else:
-# #     print("Have a great time! ")
-# # from itertools import count
-# # from operator import contains
-# # from re import L
-# # first_name = input("Enter the first name: ").lower()
-# # second_name = input("Enter the second name: ").lower()
-# # t = first_name.count("t")
-# # r = first_name.count("r")
-# # u = first_name.count("u")
-# # e = first_name.count("e")
-# # l = second_name.count("l")
-# # o = second_name.count("o")
-# # v = second_name.count("v")
-# # e = second_name.count("e")
-# # print((t + r + u + e) * 10 + (l + o + v + e))
+# height = int(input("Enter your height: "))
+# age = int(input("Enter your age: "))
+# price = 0
+# if height >= 120 and age >= 9:
+#     if age >= 0 and age <= 9:
+#         price += 10
+#         print("You are welcome! " , "Pay:" , price)
+#     elif age >= 9 and age <= 18:
+#         price += 15
+#         print("You are welcome! " , "Pay:" , price)
+#     else:
+#         price += 20
+#         print("You are welcome! " , "Pay:" , price)
+# else:
+#     print("Vhoda net")
+# take_photo = input("Do you want a photo? ")
+# if take_photo == "Yes":
+#     price += 5
+#     print("Pay:",price, ".Have a great time! ")
+# else:
+#     print("Have a great time! ")
+# from itertools import count
+# from operator import contains
+# from re import L
+# first_name = input("Enter the first name: ").lower()
+# second_name = input("Enter the second name: ").lower()
+# t = first_name.count("t")
+# r = first_name.count("r")
+# u = first_name.count("u")
+# e = first_name.count("e")
+# l = second_name.count("l")
+# o = second_name.count("o")
+# v = second_name.count("v")
+# e = second_name.count("e")
+# print((t + r + u + e) * 10 + (l + o + v + e))
 
 # print("Hello. Let's play labyrinth. You can Go to the Top(T),Go down(D), Turn Right(R) or Turn Left(L). Good luck:) ")
 # print("'#' is the wall. '@' is the exit. 'Y' is you.")
@@ -318,14 +318,14 @@
 # print(list)
 # print(first[0], first[1], first[2])
 
-# # list = []
-# # list1 = [1]
-# # list2 = [2]
-# # list3 = [3]
-# # list4 = [4]
-# # list5 = [5]
-# # # list.extend([list1, list2, list3, list4, list5])
-# # [list1].join([list])
+# list = []
+# list1 = [1]
+# list2 = [2]
+# list3 = [3]
+# list4 = [4]
+# list5 = [5]
+# # list.extend([list1, list2, list3, list4, list5])
+# [list1].join([list])
 
 # # print(list)
 # names = ['b', 'a', 'c' , 'k']
@@ -381,15 +381,15 @@
 
 # dates_of_birth = {1,2,3,4,5,9}
 # nums = {4,5,6,7,8}
-# # dates_of_birth.remove(7)
-# # print(dates_of_birth)
-# # dates_of_birth.add(7)
-# # dates_of_birth.pop()
-# # print(dates_of_birth)
-# # c = dates_of_birth.intersection(nums)
-# # print(c)
+# dates_of_birth.remove(7)
+# print(dates_of_birth)
+# dates_of_birth.add(7)
+# dates_of_birth.pop()
+# print(dates_of_birth)
+# c = dates_of_birth.intersection(nums)
+# print(c)
 
-# # dates_of_birth.difference(nums)
+# dates_of_birth.difference(nums)
 # nums.discard(dates_of_birth)
 # print(nums)
 
@@ -586,15 +586,15 @@
 #     if i%3==0 or i%5==0:
 #        b = b + i
 # print(b)
-    # dict1 = {'a': 5, 'b': 3, 'c': 8, 'd': 14}
-    # if dict1['b']%3==0:
-    #    print("hi")
-    # if dict1['a']%5==0:
-    #     print("Bye")
+# dict1 = {'a': 5, 'b': 3, 'c': 8, 'd': 14}
+# if dict1['b']%3==0:
+#    print("hi")
+# if dict1['a']%5==0:
+#     print("Bye")
 
 
 
- #task 2 zadacha 2
+#task 2 zadacha 2
 
 # a = int(input("The number of languages: "))
 # languages = []
@@ -614,4 +614,4 @@
 # 	a = num[i]
 # 	b = a + b
 # print(a)
-# # print(4+7+2+9+4+6+1+0+8+4)
+# print(4+7+2+9+4+6+1+0+8+4)
