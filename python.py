@@ -1,14 +1,14 @@
-# # d = 0
-# # password = input("Write the password:")
+# d = 0
+# password = input("Write the password:")
 
-# # for i in password:
-# #     if(i.isdigit()):
-# #         d+=1
-# # if(len(password) > 6):
-# #     if d >= 5:
-# #       print("True")
-# #     else:
-# #         print("False")
+# for i in password:
+#     if(i.isdigit()):
+#         d+=1
+# if(len(password) > 6):
+#     if d >= 5:
+#       print("True")
+#     else:
+#         print("False")
 
 # # strs = ['ccc', 'aaaa', 'd', 'bb']
 # # print(sorted(strs, key=len))  ## ['d', 'bb', 'ccc', 'aaaa']
@@ -421,6 +421,8 @@
 # if num < 4:
 #     print("Correct password! Congratulations.")
 
+
+
 # a = 'sdsfgrtJAfsdISdfsdmf'
 # i = 0
 # while len(a)>0:
@@ -431,6 +433,8 @@
 #     elif bukva.isupper():
 #         print(bukva,"is big")
 
+
+
 # a = '*'
 # num = int(input("Write your number: "))
 # for i in range(num):
@@ -439,7 +443,7 @@
 #     print(a*j)
 
 
-#random password
+
 # import random
 # import string
 # alphabets = list(string.ascii_letters)
@@ -458,6 +462,9 @@
 # random.shuffle(password)
 # print("".join(password))
 
+
+
+
 # n = int(input())
 # arr = map(int, input().split())
 # print(sorted(list(set(arr)))[-2])
@@ -473,3 +480,138 @@
 # y = min(scores)
 # print(x,y)
 
+
+
+
+# b = 0
+# for i in range(100):
+#     if i % 2 == 0:
+#         b = b + i
+# print(b)
+
+# a = ['Bish', 'osh', 'batken','karakol', 'kant', 'naryn', 'talas']
+# while True:
+#     command = input('''Выберите действие: 
+#     > Добавить 
+#     > Отобразить
+#     > Заменить 
+#     > Удалить 
+#     > Выход
+#     > ''')
+#     if command == 'добавить':
+#         add = input('Добавьте новый город: ')
+#         if add not in a:
+#             a.append(add)
+#             print('Город успешно добавлен')
+#         else:
+#             print('Такой город уже есть')
+#     elif command == 'отобразить':
+#         print(', '.join(a))
+#     elif command == 'удалить':
+#         print(', '.join(a))
+#         rem = input('Выберите город для удаления:')
+#         if rem not in a:
+            
+#             print('Такого города нет')
+#         else:
+#             a.remove(rem)
+#             print('Город успешно удален')
+#     elif command == 'выход':
+#         break
+
+#     elif command == 'заменить':
+#         print(', '.join(a))
+#         replace = input('Выберите город для замены: ')
+#         replace2 = input('Введите название города: ')
+#         if replace  in a:
+#             a.remove(replace)
+#             a.append(replace2)
+#         else:
+#             print('Такого города нет')
+
+
+# Задача 3
+
+# username = input("Please create your username: ")
+# password = input("Please create the password: ")
+# users = [username, password]
+# print("Great! The user is logged in succesfully.")
+# username_ = input("Please enter your username: ")
+# password_ = input("Please enter your password: ")
+# if username_ == users[0]:
+#     if password_ == users[1]:
+#         print("Добро пожаловать.")
+#     else:
+#         print("Неправильный логин или пароль")
+# else:
+#     print("Неправильный логин или пароль")
+
+
+# print("Нажмите на кнопку ноль чтобы закончить процесс"
+#       "\nзавершит работу программы")
+# while True:
+#     s = input("Выберите знак (+,-,*,/): ")
+#     if s == '0':
+#         break
+#     if s in ('+', '-', '*', '/'):
+#         x = float(input("1 значение = "))
+#         y = float(input("2 значение = "))
+#         if s == '+':
+#             print("%.2f" % (x+y))
+#         elif s == '-':
+#             print("%.2f" % (x-y))
+#         elif s == '*':
+#             print("%.2f" % (x*y))
+#         elif s == '/':
+#             if y != 0:
+#                 print("%.2f" % (x/y))
+#             else:
+#                 print("Деление на ноль!")
+#     else:
+#         print("Неверный знак операции!")
+# a = [1, 1, 2, 3, 13, 13, 13, 13, 13, 13, 13, 13, 13, 5, 8, 13, 21, 34,1,55, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 1313, 13, 13, 13, 13, 13, 89]
+# a.append(13)
+# b = a.count(13)
+# len(a)
+# c = b*100/len(a)
+# if c <70 :
+#     print("НЕУЖЕЛИ")
+# if c>70 :
+#     print("Я ТАК И ЗНАЛ")
+# if c ==70 :
+#     print("СОВПАДЕНИЕ, НЕ ДУМАЮ")
+# a = int(input())
+# b = 0
+# for i in range(a):
+#     if i%3==0 or i%5==0:
+#        b = b + i
+# print(b)
+    # dict1 = {'a': 5, 'b': 3, 'c': 8, 'd': 14}
+    # if dict1['b']%3==0:
+    #    print("hi")
+    # if dict1['a']%5==0:
+    #     print("Bye")
+
+
+
+ #task 2 zadacha 2
+
+a = int(input("The number of languages: "))
+languages = []
+for i in range(a):
+    languages.append(input())
+for i in range(a):
+    print(i, end = "")
+    print(languages[i])
+    
+
+
+
+
+num = "4729461084"
+b = 0
+for i in range(len(num)):
+	a = num[i]
+	b = a + b
+print(a)
+# print(4+7+2+9+4+6+1+0+8+4)
