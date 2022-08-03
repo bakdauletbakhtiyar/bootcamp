@@ -608,10 +608,10 @@ for i in range(a):
 
 
 
-num = "4729461084"
-b = 0
-for i in range(len(num)):
-	a = num[i]
-	b = a + b
-print(a)
-# print(4+7+2+9+4+6+1+0+8+4)
+# num = "4729461084"
+# b = 0
+# for i in range(len(num)):
+# 	a = num[i]
+# 	b = a + b
+# print(a)
+# # print(4+7+2+9+4+6+1+0+8+4)
