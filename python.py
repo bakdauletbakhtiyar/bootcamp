@@ -596,13 +596,13 @@
 
  #task 2 zadacha 2
 
-a = int(input("The number of languages: "))
-languages = []
-for i in range(a):
-    languages.append(input())
-for i in range(a):
-    print(i, end = "")
-    print(languages[i])
+# a = int(input("The number of languages: "))
+# languages = []
+# for i in range(a):
+#     languages.append(input())
+# for i in range(a):
+#     print(i, end = " ")
+#     print(languages[i])
     
 
 
