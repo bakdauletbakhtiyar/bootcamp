@@ -605,9 +605,6 @@
 #     print(languages[i])
     
 
-
-
-
 # num = "4729461084"
 # b = 0
 # for i in range(len(num)):
